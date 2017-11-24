@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(to right, #2290B2, #63DAFF);
+}
+
+.content {
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1, h2, footer {
+    text-align: center;
+    margin: auto;
+}
+
+.list {
+    display: flex;
+}
+
+article {
+    padding: 20px;
+}
+
+.button {
+    list-style-type: none;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+header, article, footer {
+    background: linear-gradient(to right, #396D7F, #284C59);
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px #427F94;
+}
