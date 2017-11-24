@@ -38,10 +38,23 @@ a {
 header, article, footer {
     background: linear-gradient(to right, #396D7F, #284C59);
     border-radius: 4px;
-    box-shadow: 3px 3px 3px #427F94;
+    box-shadow: 2px 2px 2px #427F94;
 }
 
+.imgprofil{
+    margin-left: 30px;
+    height: 130px;
+    width: 130px;
+    border: 5px solid #7F4C0C;
+    border-radius: 45px;
+    box-shadow: 2px 2px 2px #A15F0F;
+}
 
+.gif1 {
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
 
 
