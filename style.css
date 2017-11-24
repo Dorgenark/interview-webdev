@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, #2290B2, #63DAFF);
+    background: linear-gradient(to left, #11C1DE, #28A9D1);
     font-family: 'DejaVu Sans', sans-serif;
 }
 
@@ -10,7 +10,9 @@ body {
 }
 
 p {
+    color: #DBDEDE;
     line-height: 25px;
+    text-shadow: 1px 1px 1px #CACCCC;
 }
 
 h1, h2, footer {
@@ -18,36 +20,60 @@ h1, h2, footer {
     margin: auto;
 }
 
+h1 {
+    font-size: 300%;
+    color: #E0E3E3;
+    padding: 20px;
+    width: auto;
+    text-shadow: 2px 2px 2px darkgrey;
+    
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 200%;
+    color: #E0E3E3;
+    width: auto;
+    text-shadow: 2px 2px 2px darkgrey;
+}
+
 .list {
     display: flex;
+    text-decoration: none;
 }
 
 article {
-    padding: 20px;
+    padding: 30px;
 }
 
 .button {
+    font-size: 150%;
     list-style-type: none;
     margin: auto;
+    padding: 7px;
+    color: #E0E3E3;
+    width: auto;
+    text-shadow: 2px 2px 2px darkgrey;
 }
 
 a {
     text-decoration: none;
+    color: #E0E3E3;
 }
 
-header, article, footer {
-    background: linear-gradient(to right, #396D7F, #284C59);
+.list, h1, article, footer {
+    background: linear-gradient(to left, #1C6A75, #267682);
     border-radius: 4px;
     box-shadow: 2px 2px 2px #427F94;
 }
 
 .imgprofil{
     margin-left: 30px;
-    height: 130px;
-    width: 130px;
-    border: 5px solid #7F4C0C;
-    border-radius: 45px;
-    box-shadow: 2px 2px 2px #A15F0F;
+    height: 140px;
+    width: 140px;
+    border: 7px solid #13484F;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px #0071AB;
 }
 
 .gif1 {
