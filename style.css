@@ -20,19 +20,11 @@ h1, h2, footer {
 }
 
 h1 {
-    font-size: 300%;
+    font-size: 320%;
     color: #E0E3E3;
     padding: 30px;
     width: auto;
     text-shadow: 0.5px 0.5px 0.5px darkgrey;
-    
-}
-
-h2 {
-    font-size: 200%;
-    color: #E0E3E3;
-    width: auto;
-    text-shadow: 0.3px 0.3px 0.3px darkgrey;
 }
 
 .list {
@@ -45,17 +37,24 @@ article {
 }
 
 .button {
+    position: relative;
     font-size: 150%;
     list-style-type: none;
-    margin: auto;
-    padding: 12px;
+    padding: 25px;
     color: #E0E3E3;
     width: auto;
     text-shadow: 0.5px 0.5px 0.5px darkgrey;
 }
 
+#button1 {
+    font-size: 120%;
+    list-style-type: none;
+    color: #D1525A;
+    text-shadow: 0.5px 0.5px 0.5px #BF4B53;
+  
+}
+
 nav a:hover {
-    padding: 15px;
     font-size: 100%;
     list-style-type: none;
     color: #D1525A;
@@ -67,18 +66,20 @@ a {
     color: #E0E3E3;
 }
 
-.list, h1, article, footer {
+h1, .list, article, footer {
     background: linear-gradient(to left, #1C6A75, #267682);
     border-radius: 4px;
     box-shadow: 1px 1px 1px #427F94;
 }
 
 .imgprofil{
-    margin-left: 30px;
-    height: 140px;
-    width: 140px;
+    margin-top: 20px;
+    margin-left: 70px;
+    height: 150px;
+    width: 150px;
     border: 7px solid #13484F;
     border-radius: 50px;
+    opacity: 0.95;
 }
 
 .gif1 {
@@ -101,7 +102,6 @@ a {
          url('icon-social/socicon.svg#icomoonregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
