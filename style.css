@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to left, #11C1DE, #28A9D1);
+    background: linear-gradient(to right, #07A2A5, #07B5A5);
     font-family: 'DejaVu Sans', sans-serif;
 }
 
@@ -87,15 +87,24 @@ a {
     margin-left: 150px;
 }
 
-h1, .list, article, footer {
+.list {
+    background: linear-gradient(to right, #215D64, #1E555C);
+    border-radius: 4px;
+}
+
+header, article, footer {
     background: linear-gradient(to left, #1C6A75, #267682);
     border-radius: 4px;
     box-shadow: 1px 1px 1px #427F94;
 }
 
+article {
+    border-radius: 25px;
+}
+
 .imgprofil{
-    margin-top: 20px;
-    margin-left: 70px;
+    margin-top: 10px;
+    margin-left: 50px;
     height: 150px;
     width: 150px;
     border: 7px solid #13484F;
