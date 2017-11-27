@@ -12,6 +12,8 @@ body {
 p {
     color: #DBDEDE;
     line-height: 25px;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 h1, h2, footer {
@@ -34,6 +36,21 @@ h1 {
 
 article {
     padding: 30px;
+}
+
+article p {
+    font-size: 120%;
+    line-height: 150%;
+}
+
+article i {
+    font-size: 90%;
+    background-color: #1C5861;
+}
+
+article b {
+    font-size: 110%;
+    background-color: #1C5861;
 }
 
 .button {
@@ -64,6 +81,10 @@ nav a:hover {
 a {
     text-decoration: none;
     color: #E0E3E3;
+}
+
+.suite {
+    margin-left: 150px;
 }
 
 h1, .list, article, footer {
