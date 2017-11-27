@@ -12,7 +12,6 @@ body {
 p {
     color: #DBDEDE;
     line-height: 25px;
-    text-shadow: 1px 1px 1px #CACCCC;
 }
 
 h1, h2, footer {
@@ -23,18 +22,17 @@ h1, h2, footer {
 h1 {
     font-size: 300%;
     color: #E0E3E3;
-    padding: 20px;
+    padding: 30px;
     width: auto;
-    text-shadow: 2px 2px 2px darkgrey;
+    text-shadow: 0.5px 0.5px 0.5px darkgrey;
     
 }
 
 h2 {
-    text-decoration: underline;
     font-size: 200%;
     color: #E0E3E3;
     width: auto;
-    text-shadow: 2px 2px 2px darkgrey;
+    text-shadow: 0.3px 0.3px 0.3px darkgrey;
 }
 
 .list {
@@ -50,10 +48,18 @@ article {
     font-size: 150%;
     list-style-type: none;
     margin: auto;
-    padding: 7px;
+    padding: 12px;
     color: #E0E3E3;
     width: auto;
-    text-shadow: 2px 2px 2px darkgrey;
+    text-shadow: 0.5px 0.5px 0.5px darkgrey;
+}
+
+nav a:hover {
+    padding: 15px;
+    font-size: 100%;
+    list-style-type: none;
+    color: #D1525A;
+    text-shadow: 0.5px 0.5px 0.5px #BF4B53;
 }
 
 a {
@@ -64,7 +70,7 @@ a {
 .list, h1, article, footer {
     background: linear-gradient(to left, #1C6A75, #267682);
     border-radius: 4px;
-    box-shadow: 2px 2px 2px #427F94;
+    box-shadow: 1px 1px 1px #427F94;
 }
 
 .imgprofil{
@@ -73,7 +79,6 @@ a {
     width: 140px;
     border: 7px solid #13484F;
     border-radius: 50px;
-    box-shadow: 1px 1px #0071AB;
 }
 
 .gif1 {
@@ -108,7 +113,7 @@ a {
 
 .soc {
     overflow:hidden;
-    padding: 10px;
+    padding: 15px;
     list-style:none;
 }
 
@@ -122,8 +127,8 @@ a {
     font-family:si!important;
     font-style:normal;
     font-weight:400;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     -ms-box-sizing:border-box;
@@ -146,14 +151,14 @@ a {
     display:block;
     position: relative;
     z-index: 1;
-    width: 75px;
-    height: 75px;
-    line-height: 75px;
-    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     border-radius: 100px;
-    margin-right: 20px;
+    margin-right: 40px;
     color: #000000;
     background-color: #E0E3E3;
 }
